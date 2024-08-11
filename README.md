@@ -1,1 +1,1 @@
-# weather-app
+A Weather App made using HTML, CSS and JavaScript(Fetch API).
