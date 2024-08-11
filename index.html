@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Search your city here!">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="weather-icon">
+            <img src="clear.png" id="wethr-icon">
+        </div>
+        <div class="temp">
+            <p class="city-temp">Temperature Here</p>
+            <p class="city-name">Name Here</p>
+        </div>
+        <div class="last">
+            <div class="humidity">
+                <img src="humidity.png">
+                <p class="humidity-prcntge">Humidity</p>
+            </div>
+            <div class="wind-spd">
+                <img src="wind.png">
+                <p class="wind-speed">Wind-Speed</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
