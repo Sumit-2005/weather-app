@@ -5,9 +5,6 @@ let search = document.querySelector(".search-icon");
 
 
 search.addEventListener("click", () => {
-    if(input.value = ""){
-        console.log("Enter City Name");
-    } else {
-        console.log(input.value);
-    }
+    var city = input.value;
+
 })
