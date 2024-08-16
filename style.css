@@ -94,3 +94,13 @@ input {
 #humid {
     width: 35px;
 }
+
+#humidity-here {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+#speed-here {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
